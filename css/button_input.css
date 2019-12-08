@@ -1,0 +1,37 @@
+            .input_btn
+            {
+                background-color: #000; /* Green */
+                border:chocolate;
+                border-width: 80px;
+                color: chocolate;
+                padding: 15px 22px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 23px;
+                font-family: 'Nunito', sans-serif;
+            }
+            .input_btn:hover{
+                background-color:chocolate; /* Black */
+                border:black;
+                
+                border-width: 80px;
+                color: black;
+                padding: 15px 22px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 23px;
+
+            }
+            .input_btn:active{
+                background-color:chocolate; /* Black */
+                border:black;
+                border-width: 80px;
+                color: black;
+                padding: 15px 22px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 29px;
+            }

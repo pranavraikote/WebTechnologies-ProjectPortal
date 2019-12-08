@@ -1,0 +1,68 @@
+ body{
+	margin: 0 auto;
+	height: 100vh;	
+	background-color: orange;
+	background-repeat: no-repeat;
+	background-image: url('../img/bg.jpg');
+	background-size: 100% 720px;
+	font-family: 'Nunito', sans-serif;
+}
+ 
+.container {
+	width: 500px;
+	height: 550px;
+	text-align: center;
+	margin: 0 auto;	
+	margin-top: 20px;
+}
+ 
+.container img{
+	width: 100px;
+	height: 100px;
+	margin-top: -60px;
+}
+ 
+input[type="text"]{
+	margin-top: 33px;
+	height: 35px;
+	width: 200px;
+	font-size: 15px;
+	margin-bottom: 3px;
+	background-color: #fff;
+	padding-left: 45px;
+}
+
+input[type="password"]{
+	margin-top: 33px;
+	height: 35px;
+	width: 200px;
+	font-size: 15px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 45px;
+}
+ 
+.form-input::before{
+	content: "\f007";
+	font-family: "FontAwesome";
+	padding-left: 07px;
+	padding-top: 40px;
+	position: absolute;
+	font-size: 27px;
+	color: #2980b9; 
+}
+ 
+.form-input:nth-child(2)::before{
+	content: "\f023";
+	margin-top: 2px;
+}
+ 
+.btn-login{
+	padding: 15px 25px;
+	border: none;
+	background-color: #27ae60;
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;	
+}
+
